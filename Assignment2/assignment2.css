@@ -1,0 +1,41 @@
+label{
+    color: rgb(32, 32, 184);
+}
+label:hover{
+    cursor: cell;
+    color: brown;
+}
+input{
+    background-color: rgba(100, 148, 237, 0.426);
+    border: 2px dotted black;
+}
+textarea{
+    background-color: beige;
+}
+
+textarea:hover{
+    background-color: rgb(220, 245, 245);
+}
+input:hover{
+    background-color: rgb(22, 193, 173);
+}
+button{
+    background-color: rgba(0, 255, 119, 0.161);
+} 
+#a{
+    background-color: burlywood;
+}
+#a:hover{
+    opacity: .5;
+}#b:hover{
+    background-color: rgb(51, 181, 16);
+}
+
+.container{
+    display: flex;
+    background-color: cornsilk;
+   
+    width: 500px;
+    justify-content: center;
+
+}
