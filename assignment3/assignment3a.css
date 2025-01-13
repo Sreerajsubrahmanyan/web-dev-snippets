@@ -11,12 +11,12 @@ h1.pink{
     color: pink;
 }
 
-/* #brown{
+h1#brown{
     color: brown;
-} */
+}
 
 h1.background-gold{
-    color: gold;
+    background-color: gold;
 }
 
     
