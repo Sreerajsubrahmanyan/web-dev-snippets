@@ -1,0 +1,22 @@
+body{
+    color: green;
+}
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+h1.pink{
+    color: pink;
+}
+
+/* #brown{
+    color: brown;
+} */
+
+h1.background-gold{
+    color: gold;
+}
+
+    
