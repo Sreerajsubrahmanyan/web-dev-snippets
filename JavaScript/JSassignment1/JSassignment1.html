@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="JSassignment1.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Click the Button to Celebrate!</h1>
+        <input id="test" type="button" onclick="Display_Message()" value="Celebrate &#x1F389">
+        <p id="demo"></p>
+    </div>
+    <script>
+        function Display_Message(){
+            document.getElementById("demo").style.display="block";
+            
+            document.getElementById("demo").innerHTML=" 🎊🎊Happy New Year!🎊🎊";
+        }
+    </script>
+    
+
+
+    
+</body>
+</html>
